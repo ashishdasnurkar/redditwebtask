@@ -11,7 +11,7 @@ function savePost(post, db, cb) {
 };
 
 module.exports = function (ctx, done) { 
-	MongoClient.connect(ctx.data.MONGO_URL, function (err, db) {
+	MongoClient.connect(ctx.data.MONGO_URI, function (err, db) {
 	    if(err) return done(err);
 
 	    var post = {};
