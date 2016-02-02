@@ -1,2 +1,2 @@
 # redditwebtask
-Saves my reddit saved posts to mongolab
+If this then that webtask for saving reddit posts to mongolab mongodb instance

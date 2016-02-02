@@ -1,0 +1,27 @@
+{
+  "name": "redditwebtask",
+  "version": "1.0.0",
+  "description": "If this then that webtask for saving reddit posts to mongolab mongodb instance",
+  "main": "save-reddit-posts.js",
+  "dependencies": {
+    "mongodb": "^2.1.4"
+  },
+  "devDependencies": {
+    "yargs": "^3.32.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github_ashishdasnurkar:ashishdasnurkar/redditwebtask.git"
+  },
+  "keywords": [
+    "auth0",
+    "webtask",
+    "ifttt",
+    "demo"
+  ],
+  "author": "Ashish Dasnurkar",
+  "license": "MIT"
+}
