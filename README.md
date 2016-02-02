@@ -2,6 +2,11 @@
 If this then that webtask for storing your saved reddit posts to mongodb instance
 
 #How to use
+
+Refer to the [blogpost/tutorial](http://ashishdasnurkar.com/blog/2016/02/02/using-webtask-with-ifttt-to-save-reddit-posts/) for detailed explanation. 
+
+Tl;dr version is below
+
 Fork this repo and create a webtask with following command
 `wt create --secret MONGO_URI="<mongo_connection_url>" https://raw.githubusercontent.com/<user_github_username>/redditwebtask/master/save-reddit-posts.js`
 
